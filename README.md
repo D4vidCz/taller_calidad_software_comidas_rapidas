@@ -26,28 +26,28 @@ Su objetivo principal es construir una **aplicación web de gestión de producto
 
 ## Estructura del proyecto
 
-taller_calidad_software_comidas_rapidas/
-├── app/
-│ ├── Http/
-│ │ └── Controllers/
-│ ├── Models/
-│ └── Providers/
-├── resources/
-│ ├── views/
-│ └── css/
-├── routes/
-│ └── web.php
-├── public/
-│ └── assets/
-├── .env
-├── composer.json
-├── package.json
-└── README.md (el readme de laravel)
-README.md (el readme del proyecto)
+taller_calidad_software_comidas_rapidas/_
+├── app/␣␣
+│ ├── Http/␣␣
+│ │ └── Controllers/␣␣
+│ ├── Models/␣␣
+│ └── Providers/␣␣
+├── resources/␣␣
+│ ├── views/␣␣
+│ └── css/␣␣
+├── routes/␣␣
+│ └── web.php␣␣
+├── public/␣␣
+│ └── assets/␣␣
+├── .env␣␣
+├── composer.json␣␣
+├── package.json␣␣
+└── README.md (el readme de laravel)␣␣
+README.md (el readme del proyecto)␣␣
 
 ## 🗄️ Entidades del CRUD (desde las miagraciones de laravel)
 
-#### 1. Productos (Games)
+#### 1. Productos 
 ```javascript
  public function up(): void
     {
@@ -62,7 +62,7 @@ README.md (el readme del proyecto)
     }
 ```
 
-#### 2. Reseñas (Reviews)
+#### 2. Tipo de productos
 ```javascript
  public function up(): void
     {

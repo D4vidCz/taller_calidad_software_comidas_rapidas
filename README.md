@@ -45,7 +45,7 @@ taller_calidad_software_comidas_rapidas/<br>
 └── README.md (el readme de laravel)␣<br>
 README.md (el readme del proyecto)␣<br>
 
-## 🗄️ Entidades del CRUD (desde las miagraciones de laravel)
+## 🗄️ Entidades del CRUD (desde las migraciones de laravel)
 
 #### 1. Productos 
 ```javascript

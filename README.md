@@ -26,24 +26,24 @@ Su objetivo principal es construir una **aplicación web de gestión de producto
 
 ## Estructura del proyecto
 
-taller_calidad_software_comidas_rapidas/_
-├── app/␣␣
-│ ├── Http/␣␣
-│ │ └── Controllers/␣␣
-│ ├── Models/␣␣
-│ └── Providers/␣␣
-├── resources/␣␣
-│ ├── views/␣␣
-│ └── css/␣␣
-├── routes/␣␣
-│ └── web.php␣␣
-├── public/␣␣
-│ └── assets/␣␣
-├── .env␣␣
-├── composer.json␣␣
-├── package.json␣␣
-└── README.md (el readme de laravel)␣␣
-README.md (el readme del proyecto)␣␣
+taller_calidad_software_comidas_rapidas/<br>
+├── app/␣<br>
+│ ├── Http/␣<br>
+│ │ └── Controllers/␣<br>
+│ ├── Models/␣<br>
+│ └── Providers/␣<br>
+├── resources/␣<br>
+│ ├── views/␣<br>
+│ └── css/␣<br>
+├── routes/␣<br>
+│ └── web.php␣<br>
+├── public/␣<br>
+│ └── assets/␣<br>
+├── .env␣<br>
+├── composer.json␣<br>
+├── package.json␣<br>
+└── README.md (el readme de laravel)␣<br>
+README.md (el readme del proyecto)␣<br>
 
 ## 🗄️ Entidades del CRUD (desde las miagraciones de laravel)
 

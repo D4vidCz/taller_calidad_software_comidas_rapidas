@@ -18,7 +18,7 @@ body {
 /* ===== Sidebar ===== */
 .sidebar {
   width: 240px;
-  background: linear-gradient(180deg, #2a4d69, #4b86b4);
+  background: linear-gradient(180deg, #ee6161, #b44b4b);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@ body {
 .logout-btn {
   width: 100%;
   padding: 10px;
-  background: #ff5c5c;
+  background: #b3714af5;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -71,7 +71,7 @@ body {
 }
 
 .logout-btn:hover {
-  background: #ff3b3b;
+  background: #ff893b;
 }
 
 /* ===== Contenido Principal ===== */
@@ -94,11 +94,11 @@ body {
 }
 
 .header h1 {
-  color: #2a4d69;
+  color: #ec3232;
 }
 
 .header p {
-  color: #4b86b4;
+  color: #f74545;
   font-weight: 500;
 }
 
@@ -124,7 +124,7 @@ body {
 }
 
 .card h3 {
-  color: #2a4d69;
+  color: #f55050;
   margin-bottom: 10px;
 }
 
@@ -135,7 +135,7 @@ body {
 }
 
 .card .btn {
-  background: #4b86b4;
+  background: #ee6161;
   color: white;
   text-decoration: none;
   padding: 10px 20px;
@@ -143,8 +143,9 @@ body {
   transition: background 0.3s;
 }
 
+
 .card .btn:hover {
-  background: #2a4d69;
+  background: #ee7676;
 }
 
 /* ===== Responsividad ===== */

@@ -9,9 +9,10 @@
 <body>
   <nav class="navbar">
     <h2>Panel de Administración</h2>
-    <div>
+    <div class="btn-nav">
       <a href="{{ route('productos.index') }}">Productos</a>
       <a href="{{ route('tipoproductos.index') }}">Tipos de Producto</a>
+      <a  class="btn-volver" href="{{ route('dashboard') }}">Volver</a>
     </div>
   </nav>
 

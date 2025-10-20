@@ -1,6 +1,9 @@
 @extends('layout')
 
 @section('content')
+<head>
+    <link rel="stylesheet" href="{{ asset('css/tipoproducto-create.css') }}">
+</head>
 <div class="container">
     <h1>Registrar Tipo de Producto</h1>
 

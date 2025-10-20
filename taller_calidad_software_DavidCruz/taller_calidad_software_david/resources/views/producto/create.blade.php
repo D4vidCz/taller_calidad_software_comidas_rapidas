@@ -3,6 +3,9 @@
 @section('title', 'Nuevo Producto')
 
 @section('content')
+<head>
+    <link rel="stylesheet" href="{{ asset('css/producto-create.css') }}">
+</head>
 <div class="card">
   <h1>Crear Producto</h1>
   <form action="{{ route('productos.store') }}" method="POST">

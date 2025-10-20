@@ -1,0 +1,119 @@
+/* 🎨 Fondo y estilo general */
+body {
+    background: linear-gradient(135deg, #f8e1f4, #e3eeff);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🧱 Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+/* 🏷️ Título */
+.container h1 {
+    color: #e91e63;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* 🧩 Formulario */
+.formulario {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Campos */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    color: #333;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #e91e63;
+    box-shadow: 0 0 5px rgba(233, 30, 99, 0.3);
+    outline: none;
+}
+
+/* 🔘 Botones */
+.btn-guardar {
+    display: inline-block;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+
+
+.btn-guardar {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.btn-guardar:hover {
+    background-color: #1976d2;
+}
+
+.btn-volver{
+  background-color: #ff8d4b;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-volver:hover {
+    background-color: #757575;
+}
+
+/* 📱 Responsive */
+@media (max-width: 600px) {
+    .formulario {
+        padding: 25px 20px;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn-guardar,
+    .btn-volver {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

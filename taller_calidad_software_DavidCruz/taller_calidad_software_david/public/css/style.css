@@ -1,18 +1,25 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #f8d7e5, #cce5ff);
+  background: linear-gradient(135deg, #fca9a96b, #f7be986c);
   color: #333;
   min-height: 100vh;
 }
 
 .navbar {
-  background: #ff82b2;
+  background: #e75252;
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
   color: white;
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.navbar .btn-nav{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  padding: 10px;
 }
 
 .navbar a {
@@ -42,9 +49,19 @@ body {
   max-width: 800px;
 }
 
+.btn-volver{
+  background-color: #ff8d4b;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
 h1 {
   text-align: center;
-  color: #ff4b91;
+  color: #ff4b4b;
   margin-bottom: 1.5rem;
 }
 
@@ -86,7 +103,7 @@ table th, table td {
 }
 
 .btn-primary {
-  background-color: #ff4b91;
+  background-color: #ff934b;
 }
 
 .btn-edit {

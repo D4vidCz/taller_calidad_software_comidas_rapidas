@@ -1,0 +1,7 @@
+organization=d4vidcz
+projectKey=D4vidCz_taller_calidad_software_david
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.69167
+dashboardUrl=https://sonarcloud.io/dashboard?id=D4vidCz_taller_calidad_software_david
+ceTaskId=AZoikh0u2U0ybIei87Ht
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZoikh0u2U0ybIei87Ht

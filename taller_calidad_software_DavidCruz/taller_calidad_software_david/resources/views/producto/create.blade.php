@@ -4,23 +4,26 @@
 
 @section('content')
 <head>
-    <link rel="stylesheet" href="{{ asset('css/producto-create.css') }}">
+  <title>Form Producto</title>
+  <link rel="stylesheet" href="{{ asset('css/producto-create.css') }}">
 </head>
+
 <div class="card">
   <h1>Crear Producto</h1>
   <form action="{{ route('productos.store') }}" method="POST">
     @csrf
-    <label>Nombre</label>
-    <input type="text" name="nombre" required>
 
-    <label>Stock</label>
-    <input type="number" name="stock" required>
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" required>
 
-    <label>Precio</label>
-    <input type="number" step="0.01" name="precio" required>
+    <label for="stock">Stock</label>
+    <input type="number" id="stock" name="stock" required>
 
-    <label>Tipo de Producto</label>
-    <select name="tipo_producto_id" required>
+    <label for="precio">Precio</label>
+    <input type="number" id="precio" name="precio" step="0.01" required>
+
+    <label for="tipo_producto_id">Tipo de Producto</label>
+    <select id="tipo_producto_id" name="tipo_producto_id" required>
       @foreach($tipos as $tipo)
         <option value="{{ $tipo->id }}">{{ $tipo->nombre }}</option>
       @endforeach

@@ -22,13 +22,13 @@ $app\http\controllers\logincontrollerapp\http\controllers\controller4
 login+app\http\controllers\logincontroller::login®
  app\providers\appserviceprovider"illuminate\support\serviceprovider.
 boot&app\providers\appserviceprovider::boot6
-register*app\providers\appserviceprovider::register…
-(app\http\controllers\dashboardcontrollerapp\http\controllers\controller8
-index/app\http\controllers\dashboardcontroller::index‚
+register*app\providers\appserviceprovider::register‚
 app\models\producto"illuminate\database\eloquent\model1
 tipoproducto!app\models\producto::tipoproducto"fillable*
 
-fillable{
+fillable…
+(app\http\controllers\dashboardcontrollerapp\http\controllers\controller8
+index/app\http\controllers\dashboardcontroller::index{
 app\models\userilluminate\foundation\auth\user
 castsapp\models\user::casts"fillable"hidden*
 

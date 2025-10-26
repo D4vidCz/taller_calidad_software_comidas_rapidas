@@ -2,6 +2,7 @@
 
 @section('content')
 <head>
+    <title>Form Actualizar</title>
     <link rel="stylesheet" href="{{ asset('css/tipoproducto-create.css') }}">
 </head>
 <div class="container">

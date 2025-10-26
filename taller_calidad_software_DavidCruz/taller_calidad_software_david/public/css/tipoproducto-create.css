@@ -74,14 +74,10 @@ input[type="text"]:focus {
     text-decoration: none;
     transition: 0.3s;
     margin-right: 10px;
-}
-
-
-
-.btn-guardar {
     background-color: #2196f3;
     color: #fff;
 }
+
 
 .btn-guardar:hover {
     background-color: #1976d2;
